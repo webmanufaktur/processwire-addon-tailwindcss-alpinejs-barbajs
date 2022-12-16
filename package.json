@@ -1,18 +1,18 @@
 {
-  "name": "processwire-addon-tailwindcss",
+  "name": "processwire-addon-tailwindcss-alpinejs-barbajs",
   "version": "1.0.0",
   "description": "All necessary files for TailwindCSS in ProcessWire CMS/CMF.",
   "main": "tailwind.config.js",
   "scripts": {
-    "watch": "npm-run-all watch:*",
+    "watch": "npm-run-all --parallel watch:*",
     "build": "npm-run-all build:*",
     "build:clean": "del site/templates/css/tailwindcss.css site/templates/js/alpinejs.js site/templates/js/barbajs.js",
-    "watch:tailwindcss": "npx tailwindcss -i site/templates/src/tailwindcss.css -c tailwind.config.js -o site/templates/css/tailwindcss.css --watch",
-    "build:tailwindcss": "npx tailwindcss -i site/templates/src/tailwindcss.css -c tailwind.config.js -o site/templates/css/tailwindcss.css --minify",
-    "watch:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --minify --outfile=site/templates/js/alpinejs.js",
-    "build:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --minify --outfile=site/templates/js/alpinejs.js",
-    "watch:barbajs": "npx esbuild site/templates/src/barbajs.js --bundle --target=es2018 --minify --outfile=site/templates/src/barbajs.js",
-    "build:barbajs": "npx esbuild site/templates/src/barbajs.js --bundle --target=es2018 --minify --outfile=site/templates/js/barbajs.js"
+    "watch:tailwindcss": "npx tailwindcss -i site/templates/src/tailwindcss.css -c tailwind.config.js -o site/templates/styles/tailwindcss.css --watch",
+    "build:tailwindcss": "npx tailwindcss -i site/templates/src/tailwindcss.css -c tailwind.config.js -o site/templates/styles/tailwindcss.css --minify",
+    "watch:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --minify --outfile=site/templates/scripts/alpinejs.js",
+    "build:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --minify --outfile=site/templates/scripts/alpinejs.js",
+    "watch:barbajs": "npx esbuild site/templates/src/barbajs.js --bundle --target=es2018 --minify --outfile=site/templates/scripts/barbajs.js",
+    "build:barbajs": "npx esbuild site/templates/src/barbajs.js --bundle --target=es2018 --minify --outfile=site/templates/scripts/barbajs.js"
   },
   "repository": {
     "type": "git",
