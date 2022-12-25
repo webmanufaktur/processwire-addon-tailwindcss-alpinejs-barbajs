@@ -48,7 +48,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "alpinejs": "^3.10.5",
     "del-cli": "^5.0.0",
-    "esbuild": "^0.16.4",
+    "esbuild": "^0.16.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
