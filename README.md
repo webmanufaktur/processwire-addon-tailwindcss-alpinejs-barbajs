@@ -1,12 +1,12 @@
 # ProcessWire CMS/CMF Addon with TailwindCSS, AlpineJS, and BarbaJS
 
-This is not a **[ProcessWire CMS/CMF](https://processwire.com/) _profile_** you would use to install or set up a new ProcessWire instance. This is more a _copy & paste_ template that gives you all the necessary files, packages and scrips to use **TailwindCSS**, **AlpineJS**, and/or **BarbaJS** with sane defaults and popular plugins available (need to be activated within the _src/files_).
+**Caution:** This is not a **[ProcessWire CMS/CMF](https://processwire.com/) _profile_** you would use to install or set up a new ProcessWire instance. This is more a _copy & paste_ template that gives you all the necessary files, packages and scrips to use **TailwindCSS**, **AlpineJS**, and/or **BarbaJS** with sane defaults and popular plugins available right from the start (just uncomment in their specific file within _**src/files**_).
 
-## TailwindCSS
+## What this addon brings to the table
 
-Homepage: [TailwindCSS](https://tailwindcss.com/)
+### [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework.
 
-### TailwindCSS Plugins
+#### TailwindCSS Plugins
 
 - [Plugin: Typography](https://tailwindcss.com/docs/typography-plugin)
 - [Plugin: Forms](https://github.com/tailwindlabs/tailwindcss-forms)
@@ -26,11 +26,9 @@ _tailwind.config.js_
 
 ---
 
-## AlpineJS
+### [AlpineJS](https://alpinejs.dev/) - Your new, lightweight, JavaScript framework.
 
-Homepage: [AlpineJS](https://alpinejs.dev/)
-
-### AlpineJS Plugins
+#### AlpineJS Plugins
 
 - [Plugin: Mask](https://alpinejs.dev/plugins/mask)
 - [Plugin: Intersect](https://alpinejs.dev/plugins/intersect)
@@ -41,11 +39,9 @@ Homepage: [AlpineJS](https://alpinejs.dev/)
 
 ---
 
-## BarbaJS
+### [BarbaJS](https://barba.js.org/) - Create badass, fluid and smooth transitions between your website’s pages.
 
-Homepage: [BarbaJS](https://barba.js.org/)
-
-### BarbaJS Plugins
+#### BarbaJS Plugins
 
 - [Plugin: Prefetch](https://barba.js.org/docs/plugins/prefetch/)
 
@@ -61,4 +57,27 @@ ncu --upgrade
 npm install
 ```
 
+## Should this be a simple starter profile?
+
+In case you think that this should be a starter profile for ProcessWire CMS/CMF please let me know. So I can create a profile and update the respository.
+
 _Initial commit: 2022-12-11_
+
+## Changelog
+
+### Latest package update 2023-02-21
+
+```
+@alpinejs/collapse            ^3.10.5  →   ^3.11.1
+@alpinejs/focus               ^3.10.5  →   ^3.11.1
+@alpinejs/intersect           ^3.10.5  →   ^3.11.1
+@alpinejs/mask                ^3.10.5  →   ^3.11.1
+@alpinejs/morph               ^3.10.5  →   ^3.11.1
+@alpinejs/persist             ^3.10.5  →   ^3.11.1
+@tailwindcss/typography        ^0.5.8  →    ^0.5.9
+alpinejs                      ^3.10.5  →   ^3.11.1
+esbuild                      ^0.16.10  →  ^0.17.10
+prettier                       ^2.8.1  →    ^2.8.4
+prettier-plugin-tailwindcss    ^0.2.1  →    ^0.2.3
+tailwindcss                    ^3.2.4  →    ^3.2.7
+```
