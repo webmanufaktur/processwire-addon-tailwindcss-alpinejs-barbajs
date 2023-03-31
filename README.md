@@ -65,6 +65,24 @@ _Initial commit: 2022-12-11_
 
 ## Changelog
 
+### Latest package update 2023-03-31
+
+```
+@alpinejs/collapse               ^3.11.1  →   ^3.12.0
+@alpinejs/focus                  ^3.11.1  →   ^3.12.0
+@alpinejs/intersect              ^3.11.1  →   ^3.12.0
+@alpinejs/mask                   ^3.11.1  →   ^3.12.0
+@alpinejs/morph                  ^3.11.1  →   ^3.12.0
+@alpinejs/persist                ^3.11.1  →   ^3.12.0
+@tailwindcss/container-queries    ^0.1.0  →    ^0.1.1
+@tailwindcss/line-clamp           ^0.4.2  →    ^0.4.4
+alpinejs                         ^3.11.1  →   ^3.12.0
+esbuild                         ^0.17.10  →  ^0.17.14
+prettier                          ^2.8.4  →    ^2.8.7
+prettier-plugin-tailwindcss       ^0.2.3  →    ^0.2.6
+tailwindcss                       ^3.2.7  →    ^3.3.1
+```
+
 ### Latest package update 2023-02-21
 
 ```
