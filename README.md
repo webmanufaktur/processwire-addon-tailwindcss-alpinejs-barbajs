@@ -65,37 +65,55 @@ _Initial commit: 2022-12-11_
 
 ## Changelog
 
+### Latest package update 2023-08-26
+
+| Package                     |      Old |     New |
+| :-------------------------- | -------: | ------: |
+| @alpinejs/collapse          |  ^3.12.0 | ^3.13.0 |
+| @alpinejs/focus             |  ^3.12.0 | ^3.13.0 |
+| @alpinejs/intersect         |  ^3.12.0 | ^3.13.0 |
+| @alpinejs/mask              |  ^3.12.0 | ^3.13.0 |
+| @alpinejs/morph             |  ^3.12.0 | ^3.13.0 |
+| @alpinejs/persist           |  ^3.12.0 | ^3.13.0 |
+| @tailwindcss/forms          |   ^0.5.3 |  ^0.5.5 |
+| alpinejs                    |  ^3.12.0 | ^3.13.0 |
+| del-cli                     |   ^5.0.0 |  ^5.0.1 |
+| esbuild                     | ^0.17.14 | ^0.19.2 |
+| prettier                    |   ^2.8.7 |  ^3.0.2 |
+| prettier-plugin-tailwindcss |   ^0.2.6 |  ^0.5.3 |
+| tailwindcss                 |   ^3.3.1 |  ^3.3.3 |
+
 ### Latest package update 2023-03-31
 
-```
-@alpinejs/collapse               ^3.11.1  →   ^3.12.0
-@alpinejs/focus                  ^3.11.1  →   ^3.12.0
-@alpinejs/intersect              ^3.11.1  →   ^3.12.0
-@alpinejs/mask                   ^3.11.1  →   ^3.12.0
-@alpinejs/morph                  ^3.11.1  →   ^3.12.0
-@alpinejs/persist                ^3.11.1  →   ^3.12.0
-@tailwindcss/container-queries    ^0.1.0  →    ^0.1.1
-@tailwindcss/line-clamp           ^0.4.2  →    ^0.4.4
-alpinejs                         ^3.11.1  →   ^3.12.0
-esbuild                         ^0.17.10  →  ^0.17.14
-prettier                          ^2.8.4  →    ^2.8.7
-prettier-plugin-tailwindcss       ^0.2.3  →    ^0.2.6
-tailwindcss                       ^3.2.7  →    ^3.3.1
-```
+| Package                        |      Old |      New |
+| :----------------------------- | -------: | -------: |
+| @alpinejs/collapse             |  ^3.11.1 |  ^3.12.0 |
+| @alpinejs/focus                |  ^3.11.1 |  ^3.12.0 |
+| @alpinejs/intersect            |  ^3.11.1 |  ^3.12.0 |
+| @alpinejs/mask                 |  ^3.11.1 |  ^3.12.0 |
+| @alpinejs/morph                |  ^3.11.1 |  ^3.12.0 |
+| @alpinejs/persist              |  ^3.11.1 |  ^3.12.0 |
+| @tailwindcss/container-queries |   ^0.1.0 |   ^0.1.1 |
+| @tailwindcss/line-clamp        |   ^0.4.2 |   ^0.4.4 |
+| alpinejs                       |  ^3.11.1 |  ^3.12.0 |
+| esbuild                        | ^0.17.10 | ^0.17.14 |
+| prettier                       |   ^2.8.4 |   ^2.8.7 |
+| prettier-plugin-tailwindcss    |   ^0.2.3 |   ^0.2.6 |
+| tailwindcss                    |   ^3.2.7 |   ^3.3.1 |
 
 ### Latest package update 2023-02-21
 
-```
-@alpinejs/collapse            ^3.10.5  →   ^3.11.1
-@alpinejs/focus               ^3.10.5  →   ^3.11.1
-@alpinejs/intersect           ^3.10.5  →   ^3.11.1
-@alpinejs/mask                ^3.10.5  →   ^3.11.1
-@alpinejs/morph               ^3.10.5  →   ^3.11.1
-@alpinejs/persist             ^3.10.5  →   ^3.11.1
-@tailwindcss/typography        ^0.5.8  →    ^0.5.9
-alpinejs                      ^3.10.5  →   ^3.11.1
-esbuild                      ^0.16.10  →  ^0.17.10
-prettier                       ^2.8.1  →    ^2.8.4
-prettier-plugin-tailwindcss    ^0.2.1  →    ^0.2.3
-tailwindcss                    ^3.2.4  →    ^3.2.7
-```
+| Package                     |      Old |      New |
+| :-------------------------- | -------: | -------: |
+| @alpinejs/collapse          |  ^3.10.5 |  ^3.11.1 |
+| @alpinejs/focus             |  ^3.10.5 |  ^3.11.1 |
+| @alpinejs/intersect         |  ^3.10.5 |  ^3.11.1 |
+| @alpinejs/mask              |  ^3.10.5 |  ^3.11.1 |
+| @alpinejs/morph             |  ^3.10.5 |  ^3.11.1 |
+| @alpinejs/persist           |  ^3.10.5 |  ^3.11.1 |
+| @tailwindcss/typography     |   ^0.5.8 |   ^0.5.9 |
+| alpinejs                    |  ^3.10.5 |  ^3.11.1 |
+| esbuild                     | ^0.16.10 | ^0.17.10 |
+| prettier                    |   ^2.8.1 |   ^2.8.4 |
+| prettier-plugin-tailwindcss |   ^0.2.1 |   ^0.2.3 |
+| tailwindcss                 |   ^3.2.4 |   ^3.2.7 |
